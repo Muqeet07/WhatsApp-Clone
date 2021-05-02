@@ -1,0 +1,27 @@
+.message {
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    max-width: 400px;
+}
+
+.message .message__sendername {
+    position: absolute;
+    font-size: 7pt;
+    font-weight: bold;
+    margin-top: -22px;
+}
+
+.message .message__text {
+
+}
+
+.message .message__text .message__text-sentat {
+    font-size: 8pt;
+    color: gray;
+    margin-left: 50px;
+    float: right;
+    margin-top: 20px;
+}

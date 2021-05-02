@@ -1,0 +1,19 @@
+.login {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__button {
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 20px;
+    border-radius: 20px;
+    background: none;
+    border: 2px solid gray;
+}
+
+.login__button:hover {
+    background-color: gray;
+    color: white;
+}

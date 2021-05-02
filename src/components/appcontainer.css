@@ -1,0 +1,8 @@
+.appcontainer {
+    display: inline-flex;
+    width: 90vw;
+    height: 90vh;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 1px 2px 1px 2px darkgray;
+}

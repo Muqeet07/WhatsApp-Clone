@@ -1,0 +1,88 @@
+.chat {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.chat__header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    border-bottom: 1px solid lightgray;
+    background-color: whitesmoke;
+}
+
+.chat__header-left {
+    display: flex;
+}
+
+.chat__header-left__text {
+    margin-left: 20px;
+}
+
+.chat__header-left__text-name {
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+
+.chat__header-left__text-lastseen {
+    color: gray;
+}
+
+
+.chat__header-right {
+    display: flex;
+}
+
+.chat__header-right > .MuiSvgIcon-root {
+    color: gray !important;
+}
+
+.chat .chat__messagescontainer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    flex: 1 ;
+    background-image: url('https://cutewallpaper.org/21/whatsapp-background-wallpaper/Whatsapp-Background-Polandballart.png');
+    overflow-y: scroll;
+}
+
+.chat .chat__footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 20px;
+    align-items: center;
+    background-color: whitesmoke;
+    border-top: 1px solid lightgray;
+}
+
+
+.chat__footer > .MuiSvgIcon-root {
+    color: gray !important;
+}
+
+.chat__footer > form {
+    display: flex;
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.chat__footer > form > input {
+   box-sizing: border-box;
+   display: flex;
+   flex: 1;
+   height: 30px;
+   padding: 10px;
+   border: none;
+   outline: none;
+}
+
+
+.chat__footer > form > button {
+    display: none;
+}

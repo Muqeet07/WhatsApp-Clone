@@ -1,0 +1,30 @@
+.sidebarchat {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.sidebarchat .sidebarchat__text {
+    margin-left: 20px;
+}
+
+.sidebarchat .sidebarchat__text > .sidebarchat__text-name {
+    font-size: 12pt;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+
+.sidebarchat .sidebarchat__text > .sidebarchat__text-lastmessage {
+    font-size: 12pt;
+    font-weight: lighter;
+    color: gray;
+}
